@@ -115,7 +115,7 @@ nav button {
 }
 
 .plans {
-    margin: 0 20%;
+    margin: 2% 20% 3% 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -150,4 +150,13 @@ nav button {
     transition: 0.5s;
     background-image: linear-gradient(#aa3b62, #411524);
 
+}
+
+.trending {
+    margin: 0 20%;
+}
+
+.drop-down select{
+    background: #221f1f;
+    color: #ffffff;
 }
