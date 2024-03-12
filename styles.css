@@ -19,6 +19,7 @@ body {
     background-position: center;
     padding: 10px 8px;
     position: relative;
+    
 }
 
 nav {
@@ -111,4 +112,42 @@ nav button {
     cursor: pointer;
     padding: 15px 30px;
     border-radius: 4px;
+}
+
+.plans {
+    margin: 0 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.plans h2 {
+    align-self: flex-start;
+}
+
+.plans .container {
+    display: flex;
+    gap: 1rem;
+}
+
+.cards {
+    background-image: linear-gradient(#8f3052, #38121e);
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2.5rem;
+    flex: 1;
+
+    
+}
+
+.cards:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+    background-image: linear-gradient(#aa3b62, #411524);
+
 }
