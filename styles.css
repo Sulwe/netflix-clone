@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #221f1f;
+    color: #ffffff;
+
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(34, 31, 31, 0.7), rgba(34, 31, 31, 0.7)), url(./images/netflixteaser.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8px;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 150px;
+
+    cursor: pointer;
+
+}
+
+nav button {
+    border: 0;
+    outline: 0;
+    background: #e50914;
+    color: #ffffff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.language-btn {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: 7px 10px;
+}
+
+.language-btn img {
+    width: 10px;
+    margin-left: 10px;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header-content h1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+
+.header-content h3 {
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+
+.email-signup {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.email-signup input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    border: 1px solid #ffffff;
+    padding: 15px 30px;
+    background: transparent;
+    border-radius: 4px;
+
+}
+
+.email-signup button {
+    background: #e50914;
+    border: 0;
+    outline: 0;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 4px;
+}
