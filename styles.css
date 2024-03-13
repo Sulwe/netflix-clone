@@ -214,3 +214,26 @@ nav button {
     right: -20px;
 }
 
+.games {
+    margin: 2% 20% 3% 20%;
+}
+.games .container {
+    margin-top: 0.5rem;
+    display: flex;
+    border-radius: 5rem;
+}
+
+.games .text {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #802344, #070103);
+    
+}
+
+.games img {
+    height: 350px;
+    width: auto;
+}
