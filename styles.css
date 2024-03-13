@@ -160,3 +160,57 @@ nav button {
     background: #221f1f;
     color: #ffffff;
 }
+
+.image-list {
+    margin: 1rem 0 1rem 0;
+    display: grid;
+    gap: 1rem;
+    overflow: auto;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.image-list::-webkit-scrollbar {
+    display: none;
+
+}
+
+.slider-wrapper .image-list .image-item {
+    width: 215px;
+    height: auto;
+    object-fit: cover;
+}
+
+.image-item:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.slider-wrapper {
+    position: relative;
+}
+
+.slide-button {
+    top: 50%;
+    height: 70px;
+    width: 20px;
+    color: #ffffff;
+    background: #423b3b;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.slide-button:hover {
+    background: #594f4f;
+}
+
+.slide-button#prev-slide {
+    left: -20px;
+}
+
+.slide-button#next-slide {
+    right: -20px;
+}
+
